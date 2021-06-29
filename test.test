@@ -1,0 +1,12 @@
+
+	,{
+  "key": "Alt+k",
+  "command": "workbench.action.nextEditorInGroup"
+}
+	,{
+  "key": "Alt+j",
+  "command": "workbench.action.previousEditorInGroup"
+}
+set clipboard=unnamedplusset clipboard=unnamedplusset clipboard=unnamedplus
+set clipboard=unnamedplusset clipboard=unnamedplusset clipboard=unnamedplus
+

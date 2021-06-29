@@ -1,0 +1,27 @@
+Info 0    [09:56:31.303] Starting TS Server
+Info 1    [09:56:31.304] Version: 4.1.3
+Info 2    [09:56:31.304] Arguments: /usr/bin/node /usr/bin/tsserver --logFile /media/72g/web/node1/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/6666d9c27ae90525afeec371476fb040/tscancellation*
+Info 3    [09:56:31.304] Platform: linux NodeVersion: 14 CaseSensitive: true
+Info 4    [09:56:31.304] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [09:56:33.830] Before ensureProjectForOpenFiles:
+Info 6    [09:56:33.831] After ensureProjectForOpenFiles:
+Info 7    [09:56:33.832] got projects updated in background, updating diagnostics for 
+Info 8    [09:56:35.009] Search path: /media/72g/web/node1/src/routes
+Info 9    [09:56:35.012] For info: /media/72g/web/node1/src/routes/users.js :: No config files found.
+Info 10   [09:56:35.019] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 11   [09:56:39.073] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 4053.2446529865265ms
+Info 12   [09:56:39.073] Project '/dev/null/inferredProject1*' (Inferred)
+Info 13   [09:56:39.073] 	Files (141)
+
+Info 14   [09:56:39.073] -----------------------------------------------
+Info 15   [09:56:39.138] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 16   [09:56:39.509] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true Elapsed: 370.47548601031303ms
+Info 17   [09:56:39.509] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 18   [09:56:39.509] 	Files (47)
+
+Info 19   [09:56:39.510] -----------------------------------------------
+Info 20   [09:56:39.628] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 21   [09:56:39.631] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: false Elapsed: 2.7696059942245483ms
+Info 22   [09:56:42.128] Before ensureProjectForOpenFiles:
+Info 23   [09:56:42.129] After ensureProjectForOpenFiles:
+Info 24   [09:56:42.129] got projects updated in background, updating diagnostics for /media/72g/web/node1/src/routes/users.js

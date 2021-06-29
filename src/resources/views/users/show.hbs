@@ -1,0 +1,28 @@
+<div class="table mt-4">
+    <h3>User mangage</h3>
+    <table class="mt-4 table">
+        <thead>
+            <tr>
+            <th scope="col">#</th>
+            <th scope="col">User name</th>
+            <th scope="col">Full name</th>
+            <th scope="col">Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each listUser}}
+            <tr>
+            <th scope="row">{{this.id}}</th>
+            <td>{{this.name}}</td>
+            <td>{{this.fullname}}</td>
+            <td>{{this.email}}</td>
+            <td>
+                <a href="/users/{{this.id}}/edit" class="btn btn-link">Sửa</a>
+                <a href="/users/{{this.id}}/delete" class="btn btn-link">Xóa</a>
+            </td>
+            </tr>
+            {{/each}}
+            <a href="/users/create" class="btn btn-link">Thêm user</a>
+        </tbody>
+    </table>
+</div>
